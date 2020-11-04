@@ -1,0 +1,43 @@
+.timeline {
+  padding-bottom: 250px;
+  position: relative;
+  z-index: 1;
+  @media(min-width: 1140px) {
+    padding-bottom: 50px;
+  }
+  .card {
+    background: $deep_dark;
+    &--image {
+      display: flex;
+      padding-bottom: 3px;
+    }
+    @media(min-width: 1140px) {
+      background: $light;
+    }
+  }
+  &--footer {
+    height: 250px;
+    background: $deep_dark;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: background .2s;
+    @media(min-width: 1140px) {
+      display: none;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      border-left: 1px solid $grey2;
+      opacity: .85;
+      height: 60px;
+      left: 50%;
+      transform: translate(-50%);
+      bottom: 120px;
+    }
+  }
+}
+.post {
+  padding-bottom: 80px;
+}

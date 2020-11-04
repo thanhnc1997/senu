@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SENU</title>
+  <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+    <main>
+      <div class="container upload-post">
+        <form class="form" action="" enctype="multipart/form-data">
+          <div class="form--header">
+            <span onclick="goBack(-1)" class="senu-icon senu-prev"></span>
+            <button type="submit">Upload</button>
+          </div>
+          <div class="form--content">
+            <div class="caption">
+              <span class="senu-icon senu-pen"></span>
+              <input type="text" placeholder="Add caption to photos" maxlength="50">
+            </div>
+            <div id="list-upload-image" class="list-image">
+<!--
+              <div>
+                <img src="images/data/img_2.jpg" alt="">
+              </div>
+              <div>
+                <img src="images/data/img_8.jpg" alt="">
+              </div>
+              <div>
+                <img src="images/data/img_4.jpg" alt="">
+              </div>
+              <div>
+                <img src="images/data/img_15.jpg" alt="">
+              </div>
+-->
+              <div class="upload">
+                <span class="senu-icon senu-add-photos"></span>
+                <input id="upload-image" type="file">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <nav class="main-nav">
+      <div class="data">
+        <span>1,997</span>
+        <span>Viewers</span>
+      </div>
+      <div class="data">
+        <span>101</span>
+        <span>Posts</span>
+      </div>
+      <span class="main-nav--link">
+        <span class="senu-icon senu-add-circle"></span>
+        <!---??---->
+        <div class="sub-nav">
+          <a href="upload_post.html">Public</a>
+          <a>Private</a>
+        </div>
+      </span>
+      <a href="#" class="main-nav--link">
+        <span class="senu-icon senu-hamburger"></span>
+      </a>
+    </nav>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

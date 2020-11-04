@@ -1,0 +1,41 @@
+.login {
+  padding-top: 100px;
+  .title {
+    font-family: $rubik;
+    font-size: $title;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  form {
+    max-width: 280px;
+    margin: auto;
+    button,
+    input {
+      width: 100%;
+    }
+    input {
+      border: 0;
+      background: $grey3;
+      color: $grey1;
+    }
+    .forget-password {
+      display: block;
+      text-align: center;
+      margin-bottom: 35px;
+      color: $grey1;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: center;
+      color: $grey1;
+      a {
+        color: $dark;
+        font-weight: 600;
+      }
+    }
+  }
+}

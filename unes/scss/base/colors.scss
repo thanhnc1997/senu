@@ -1,0 +1,21 @@
+//
+// colors
+//
+$light: #fff;
+$deep_dark: #000;
+$dark: #241e12;
+$grey1: #706c64;
+$grey2: #e3e4e5;
+$grey3: #f2f2f2;
+$grey4: #f7f7f7;
+
+//
+// background
+//
+.bg-dark {
+  background: $deep_dark;
+}
+
+.bg-light {
+  background: $light;
+}

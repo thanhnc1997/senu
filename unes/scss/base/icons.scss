@@ -1,0 +1,42 @@
+.senu-icon {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  //
+  // icon size
+  //
+  &.senu-small-icon {
+    width: 14px;
+    height: 14px;
+  }
+  //
+  // icon type
+  //
+  &.senu-home {
+    background-image: url(../images/icons/home.svg);
+  }
+  &.senu-gallery {
+    background-image: url(../images/icons/gallery.svg);
+  }
+  &.senu-add-circle {
+    background-image: url(../images/icons/plus.svg);
+  }
+  &.senu-hamburger {
+    background-image: url(../images/icons/menu.svg);
+  }
+  &.senu-multiple-image {
+    background-image: url(../images/icons/multipe_img.svg);
+  }
+  &.senu-prev {
+    background-image: url(../images/icons/prev.svg);
+  }
+  &.senu-pen {
+    background-image: url(../images/icons/pen.svg);
+  }
+  &.senu-add-photos {
+    background-image: url(../images/icons/add_photo.svg);
+  }
+}
